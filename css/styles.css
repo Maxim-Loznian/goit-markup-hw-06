@@ -37,17 +37,21 @@ body {
   color: #2e2f42;
 }
 
-navlist-item navlist-link:hover,
-navlist-item navlist-link:focus {
+.navlist-item .navlist-link:hover,
+.navlist-item .navlist-link:focus {
   color: #404bbf;
 }
 
-.contact-item {
-  font-weight: 400;
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 
 .hero-image {
@@ -61,17 +65,24 @@ navlist-item navlist-link:focus {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
 .hero-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 
 .advantages {
@@ -107,7 +118,6 @@ navlist-item navlist-link:focus {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -116,7 +126,6 @@ navlist-item navlist-link:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -125,7 +134,6 @@ navlist-item navlist-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -140,7 +148,6 @@ navlist-item navlist-link:focus {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 

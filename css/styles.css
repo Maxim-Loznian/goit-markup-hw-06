@@ -5,8 +5,7 @@
 body {
   color: #434455;
   background: #fff;
-  width: 1440px;
-  height: 3300px;
+
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,8 +24,6 @@ body {
 }
 
 .navlist {
-  width: 261px;
-  height: 24px;
   color: #2e2f42;
 }
 .navlist-item {
@@ -56,8 +53,6 @@ body {
 
 .hero-image {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .hero-title {
@@ -86,8 +81,7 @@ body {
 }
 
 .advantages {
-  width: 1128px;
-  height: 104px;
+  color: #2e2f42;
 }
 
 .advantages-title {
@@ -107,8 +101,6 @@ body {
 }
 
 .team {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
 }
 
@@ -138,8 +130,7 @@ body {
 }
 
 .portfolio {
-  width: 1128px;
-  height: 1000px;
+  color: #2e2f42;
 }
 
 .portfolio-title {
@@ -168,8 +159,6 @@ body {
 }
 
 .foot {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 

@@ -1,5 +1,5 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   background: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -26,14 +26,14 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
+  color: #4d5ae5;
+  }
 
 .logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 
@@ -54,6 +54,9 @@ img {
   color: #404bbf;
 }
 
+.contact-block {
+  font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +78,6 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
@@ -127,8 +129,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
+    color: #2e2f42;
 }
 
 .team-avatar {
@@ -161,7 +162,6 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -187,12 +187,6 @@ img {
 }
 
 .logofoot {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 

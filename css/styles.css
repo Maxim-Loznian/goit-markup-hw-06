@@ -1,3 +1,13 @@
+* {
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+}
+
 body {
   color: #434455;
   background: #fff;
@@ -7,7 +17,8 @@ body {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -26,11 +37,13 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .container {
@@ -39,6 +52,19 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .logotype {

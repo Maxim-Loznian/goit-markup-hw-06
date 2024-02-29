@@ -1,6 +1,11 @@
-* {
-  margin: 0px;
-  border: none;
+svg use svg {
+  width: 100%;
+  height: auto;
+}
+
+.icons {
+  width: 100%;
+  height: auto;
 }
 
 body {
@@ -114,6 +119,29 @@ header .container {
   color: #2e2f42;
   padding: 24px 0;
   display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+.current {
+position: relative;
+color: #404BBF;
+
+}
+.current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: #404BBF;
+    bottom: -1px;
+    left: 0;
+    display: none;
+    transition-property: all .4s;
+}
+
+.navlist-link.current::after{
+  display: block;
 }
 
 .navlist-link:hover,
@@ -145,6 +173,7 @@ header .container {
   letter-spacing: 0.02em;
   color: #434455;
   display: inline-block;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
@@ -155,6 +184,12 @@ header .container {
 .hero-image {
   background: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -185,11 +220,13 @@ header .container {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .advantages-list {
   display: flex;
@@ -210,6 +247,16 @@ header .container {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+.advantages-icon-cover{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 
 .advantages-text {
   font-size: 16px;
@@ -267,7 +314,36 @@ header .container {
   color: #434455;
   text-align: center;
 }
+.team-son-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
+.team-son-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-son-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-son-link:hover,
+.team-son-link:focus {
+  background-color: #404bbf;
+}
+
+.team-son-icon {
+  fill: #f4f4fd;
+}
 .portfolio {
   color: #2e2f42;
 }
@@ -337,4 +413,34 @@ header .container {
 .footer-logo {
   display: inline-block;
   margin: 0 0 16px;
+}
+.footer-info {
+  margin-right: 120px;
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;}
+  
+.footer-contacts-text {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-son-list {
+  gap: 16px;
+}
+
+.footer-son-link:hover,
+.footer-son-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }

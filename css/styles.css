@@ -656,6 +656,7 @@ header .container {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  cursor: pointer;
 }
 .review-form-checkblock-svg {
   position: relative;

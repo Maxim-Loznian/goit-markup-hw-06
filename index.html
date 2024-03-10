@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="page-nav">
           <a class="logotype" href="./index.html"
             >Web <span class="logo">Studio</span></a
@@ -52,16 +52,30 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+            </button>
       </div>
     </header>
+ <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="modal-close-btn">
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
     <main>
-      <section class="section hero-image">
+      <!-- <section class="section hero-image">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
-      </section>
-      <section class="section advantages">
+      </section> -->
+      <!-- <section class="section advantages">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advantages-list">
@@ -115,8 +129,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section team">
+      </section> -->
+      <!-- <section class="section team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -362,8 +376,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section portfolio">
+      </section> -->
+      <!-- <section class="section portfolio">
         <div class="container">
           <h2 class="portfolio-title" id="portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -489,9 +503,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="foot">
+    <!-- <footer class="foot">
       <div class="container footer-flex">
         <div class="footer-info">
           <a class="logotype footer-logo" href="./index.html"
@@ -554,9 +568,9 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
     </footer>
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -658,6 +672,29 @@
           <button class="review-form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
+  <header class="header">
+        <div class="container header-container">
+            <nav class="navigation">
+                <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+                <ul class="nav-list">
+                    <li><a class="nav-link current" href="">Studio</a></li>
+                    <li><a class="nav-link" href="">Portfolio</a></li>
+                    <li><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="address">
+                <ul class="address-list">
+                    <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="address-link" href="tel:110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+            <button type="button" class="open-menu-btn">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+            </button>
+        </div>
+    </header>
   </body>
-</html>
+  </html>

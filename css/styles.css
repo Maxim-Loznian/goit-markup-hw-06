@@ -13,7 +13,9 @@ body {
   background: #fff;
   font-family: "Roboto", sans-serif;
 }
-
+body.no-scroll {
+  overflow: hidden;
+}
 ul,
 ol {
   list-style-type: none;
@@ -525,5 +527,104 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/herobg@2x.jpg");
+  }
+}
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-item {
+  flex-basis: content;
+  margin-right: 24px;
+}
+.advantages-item:last-child {
+  margin-right: 0;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.advantages-icon-cover {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+}
+
+.advantages-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .advantages-item {
+    flex-basis: calc((100% - 2 * 24px) / 2);
+  }
+
+  .advantages-item :nth-child(2) {
+    margin-right: 0;
+  }
+  .advantages-title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.12;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
+
+  .advantages-list {
+    display: flex;
+  }
+
+  .advantages-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    margin-right: 24px;
+  }
+
+  .advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .advantages-icon-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+  }
+  .advantages-text {
+    font-weight: 400;
   }
 }

@@ -335,11 +335,6 @@ header .container {
   gap: 24px;
 }
 
-.footer-son-link {
-  width: 40px;
-  height: 40px;
-}
-
 .team-son-link {
   width: 100%;
   height: 100%;
@@ -358,6 +353,11 @@ header .container {
 
 .team-son-icon {
   fill: #f4f4fd;
+}
+
+.footer-son-link {
+  width: 40px;
+  height: 40px;
 }
 .portfolio {
   color: #2e2f42;

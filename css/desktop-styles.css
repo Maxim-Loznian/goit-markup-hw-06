@@ -458,10 +458,6 @@ header .container {
 .footer-info {
   margin-right: 120px;
 }
-.footer-flex {
-  display: flex;
-  align-items: baseline;
-}
 
 .footer-contacts-text {
   color: #fff;

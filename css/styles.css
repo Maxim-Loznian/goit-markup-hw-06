@@ -734,7 +734,7 @@ img {
     margin-bottom: 0;
   }
   .team-block {
-    padding: 32px 16 0;
+    padding: 32px 0;
   }
 
   .team-son-list {
@@ -991,7 +991,7 @@ img {
     display: flex;
   }
   .footer .container {
-    max-width: 584;
+    max-width: 584px;
   }
   .footer-info {
     min-width: 264px;
@@ -1080,7 +1080,6 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
   text-align: center;
-  width: 256;
 }
 
 .review-form-block {

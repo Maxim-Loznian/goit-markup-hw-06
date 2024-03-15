@@ -1218,8 +1218,7 @@ img {
 }
 
 .link-box {
-  flex-direction: column;
-  width: calc(100% - 16px - 8px);
+  width: calc(100% -16px - 8px);
 }
 
 @media screen and (min-width: 768px) {

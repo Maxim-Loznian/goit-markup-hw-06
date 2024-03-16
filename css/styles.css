@@ -520,6 +520,8 @@ img {
 .advantages-list {
   display: flex;
   flex-direction: column;
+  row-gap: 72px;
+  column-gap: 24px;
 }
 
 .advantages-item {
@@ -555,15 +557,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 72px;
 }
 
 @media screen and (min-width: 768px) {
   .advantages-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-  }
+}
   .advantages-item {
     flex-basis: calc((100% - 2 * 24px) / 2);
   }
@@ -587,11 +587,11 @@ img {
 
   .advantages-list {
     display: flex;
+    flex-wrap: ;
   }
 
   .advantages-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    margin-right: 24px;
   }
 
   .advantages-title {
@@ -849,12 +849,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 0 0 16px;
-}
+  }
 
-.footer-info {
-  margin: 0 auto;
-}
 .foot {
   background: #2e2f42;
   padding: 96px 0;
@@ -874,7 +870,7 @@ img {
 }
 
 .footer-logo {
-  margin: 0 auto;
+  margin: 0 0 16px;
   display: block;
   text-align: center;
 }
@@ -883,8 +879,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  margin: 0 auto;
-  padding: 0;
 }
 .footer-contacts {
   margin: 0 auto 72px;
@@ -974,35 +968,34 @@ img {
   justify-content: center;
   gap: 24px;
 }
-
-.footer-subscribe {
-  margin: 0 16px 0px;
+.footer-info {
+  min-width: 288px;
+  justify-content: center;
 }
+
 
 @media screen and (min-width: 768px) {
   .footer-flex {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: baseline;
+    justify-content: start;
     margin: 0 auto;
     padding: 0;
+    column-gap: 24px;
   }
   .foot {
     display: flex;
   }
   .footer .container {
     max-width: 584px;
+    margin: 0 auto;
   }
   .footer-info {
     min-width: 264px;
-    margin: 0 24px 72px 108px;
-  }
-  .footer-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    margin: 0;
-  }
+    }
+  
 
   .footer-logo {
     display: inline-block;
@@ -1025,9 +1018,7 @@ img {
   .footer-contacts-text {
     text-align: start;
   }
-  .footer-subscribe {
-    margin-left: 108px;
-  }
+ 
   .footer-form-title {
     text-align: start;
   }

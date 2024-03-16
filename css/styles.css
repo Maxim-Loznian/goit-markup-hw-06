@@ -687,8 +687,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding: 8px 16px 32px 16px;
-}
+ }
 .team-son-item {
   width: 40px;
   height: 40px;

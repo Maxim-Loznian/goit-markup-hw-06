@@ -432,6 +432,7 @@ img {
 }
 
 .review-form-checkblock-span {
+  flex-shrink: 0; 
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -539,9 +540,6 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-icon {
-  fill: #f4f4fd;
-}
 
 .page-nav-mobile {
   width: 151px;
@@ -1094,9 +1092,6 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-icon {
-  fill: #f4f4fd;
-}
 .footer-form-title {
   margin-bottom: 16px;
   font-weight: 500;
@@ -1395,21 +1390,7 @@ img {
   border: none;
   fill: #f4f4fd;
 }
-.review-form-checkblock-span {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  margin-right: 8px;
-  cursor: pointer;
-}
+
 .review-form-checkblock-svg {
   position: relative;
   z-index: 1;
@@ -1459,4 +1440,4 @@ img {
   .leave {
     width: 360px;
     padding-top: 72px;}
-  } 
+  }
